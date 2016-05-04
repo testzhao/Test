@@ -1,0 +1,374 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+body{margin:0;padding:0; font-size:14px; color:#333; font-family:Arial, Helvetica, sans-serif;color:#333;}
+img{border:0;}
+ul{list-style:none; margin:0;padding:0;}
+a{border:none; pointer:cursor; text-decoration:none;}
+a:hover{ cursor:pointer;}
+.disno{display:none;}
+.disbl{display:block;}
+input[type=submit],input[type=button],input[type=reset]{cursor:pointer; outline: none;;}
+/*首页*/
+.itop{ background:url(../images/index/itopbg.png) no-repeat; background-position:center; position:relative; width:100%; height:818px; overflow:hidden;}
+.itop1{ background:url(../images/index/itopbg1.png) no-repeat; background-position:center; position:relative; width:100%; height:183px; overflow:hidden;}
+.top{ width:100%;}
+.top .store{ width:1002px; margin:0 auto; margin-top:30px; height:90px;}
+.top .store ul{ margin:0; padding:0; list-style:none; overflow:hidden;}
+.top .store ul li{ float:right; padding-right:30px;}
+.top .store ul li .storesp1{ display:block; padding-top:10px;color:#656563;}
+.top .store ul li .storesp2{display:block; padding-top:10px;color:#003466;}
+.top .header{ background:url(../images/index/menubg.png) repeat-x; height:58px; width:100%; clear:both; margin-top:5px;}
+.top .header .header1{ width:1082px; margin:0 auto;}
+.top .header .logo{	position:absolute;z-index: 1;top:84px;float:left;}
+.top .header .menu{ float:right;}
+.top .header .menu ul{margin:0;padding:0; list-style:none; padding-top:20px; overflow:hidden;}
+.top .header .menu ul li{ float:left; padding-right:28px;}
+/*******首页预定搜索*/
+.itop .iyd{ width:1002px; margin:0 auto;}
+.itop .iyd .iydbg{ width:483px; height:483px; margin:0 auto; background:url(../images/index/ijyd.png) no-repeat; margin-top:37px; text-align:center;}
+.itop .iyd .iydbg .searchjd{ padding-bottom:10px; text-align:center; width:310px; margin:0 auto;}
+.itop .iyd .iydbg .searchjd tr{height:47px;}
+.itop .iyd .iydbg .searchjd label{ display:block; width:220px; height:35px; margin:0 auto; border:2px solid #fff; cursor:pointer;}
+.itop .iyd .iydbg .searchjd label input{ width:185px; height:30px; float:left;background-color:transparent;outline:none; border:0;}
+.itop .iyd .iydbg .searchjd label img{top:6px; position:relative;}
+.itop .iyd .iydbg .search{ padding-top:20px; text-align:center; cursor:pointer;}
+.itop .iyd .iydbg .searchjd .roompopup{z-index:10;position:relative; background:url(../images/index/rommstyle.png) no-repeat; width:215px; height:264px;top:-85px; left:226px;}
+.itop .iyd .iydbg .searchjd .roomhide{display:none;}
+.itop .iyd .iydbg .searchjd .roompopup .roomstitle{height:50px; padding-top:15px; text-align:left; padding-left:18px;}
+.searchjd .roompopup .roomlist ul{ margin:0; padding:0; list-style:none; text-align:left; padding-left:22px; overflow:hidden;}
+.searchjd .roompopup .roomlist ul li{ height:36px; padding:0;margin:0;}
+.searchjd .roompopup .roomlist ul li .rlistimg{ padding-left:10px;}
+.searchjd .roompopup .roomlist ul li a{ cursor:pointer;}
+.searchjd .ipticon{background:url(../images/index/yddate.png) 98% 50% no-repeat;border:2px #fff solid;padding:3px;}
+.searchjd .roomtype{background:url(../images/index/house.png) 98% 50% no-repeat;border:2px #fff solid;padding:3px;}
+.searchjd input{width:215px; height:29px; color:#fff;font-size:16px;font-family:微软雅黑;}
+/*中间内容区域*/
+.content{ width:1002px; margin:0 auto;}
+.rush{ clear:both; width:100%; height:267px; background-color:#f6f6f5;}
+.rush .rush1{ margin:0 auto; width:1002px;}
+.rush ul{ margin:0; padding:0; list-style:none; padding-top:8px; overflow:hidden;}
+.rush ul li{ float:left; width:320px; text-align:center;}
+.content .hjbg{ margin-top:150px; width:528px; margin:0 auto; margin-top:13px;}
+.content .hjbg .hjbg1{ background:url(../images/index/hjbg.png) no-repeat; width:528px; height:215px;}
+/*****首页房型介绍*/
+.room{ clear:both; margin-top:15px; margin-bottom:55px;}
+.room .room1{clear:both; height:329px; overflow:hidden;}
+.room .room1 a img{ padding-top:40px;}
+.room .room1 .roommore1{ width:201px; float:left;margin-top:97px; padding-left:22px;}
+.room .room1 .roomname{ margin-top:65px;}
+.room .room1 .roommore2{ width:201px; float:left;margin-top:97px; margin-left:-28px;}
+.room .room1 .roommore2 img{ float:right;}
+.room .room1 .roommore2 .roomtext{ display:block;}
+.room .room1 .roomimg1{ background:url(../images/index/room1.png) no-repeat;}
+.room .room1 .roomimg2{ background:url(../images/index/room2.png) no-repeat;}
+.room .room1 .roomimg3{ background:url(../images/index/room3.png) no-repeat;}
+.room .room1 .roomimg4{ background:url(../images/index/room4.png) no-repeat;}
+.room .room1 .roomimg5{ background:url(../images/index/room5.png) no-repeat;}
+.room .room1 .roomimg6{ background:url(../images/index/room6.png) no-repeat;}
+.room .room1 .roomimg7{ background:url(../images/index/room7.png) no-repeat;}
+.room .room1 .rimg{  width:799px;float:left;height:330px; margin-left:-22px;}
+.room .room1  .rimg1{width:799px;float:left;height:330px; }
+.hjbg2{ margin-top:55px; background:url(../images/index/hjbg2.png) no-repeat; width:528px; height:83px;}
+/*****首页食物推荐*/
+.food{ margin-top:70px; clear:both; height:320px;}
+.food .foodlist{ width:780px;margin:0 auto; margin-top:15px;}
+.food ul{margin:0;padding:0; list-style:none; overflow:hidden;}
+.food ul li{float:left; width:257px;}
+/*****首页品玩涠洲岛*/
+.play{clear:both;margin-top:60px; width:100%; background-color:#f6f6f5;height:370px;}
+.play .playcon{ width:1002px; margin:0 auto;}
+.play .playtitle{ width:366px; margin:0 auto; padding-top:70px;}
+.play .playlist{ margin-top:35px; margin-left:40px;}
+.play .playlist ul{ margin:0; padding:0; list-style:none; overflow:hidden;}
+.play .playlist ul li{float:left; margin-right:8px;}
+/*****导航*/
+.navigate{ height:47px;}
+.navigate_title{ text-align:right; padding-right:25px; padding-top:20px; padding-bottom:5px;}
+/*2、酒店预订-填写订单*/
+.neworder{ padding-left:20px; padding-right:20px; overflow:hidden; margin-bottom:45px;}
+.neworder .book_detail{float:left; width:332px;}
+.neworder .book_detail .b_dlogo{margin:0 auto; width:303px; margin-top:5px;}
+.neworder .book_detail .bdline{margin-top:15px; margin-left:-12px;}
+.neworder .book_notice{ margin-top:15px; padding-left:5px;}
+.neworder .book_notice p{color:#999;}
+.neworder .book_order{float:left;margin-left:22px !important; margin-left:11px;margin-top:30px;display:inline;width:600px;}
+.neworder .booktitle{width:570px; background-color:#0099ff;height:55px; padding-left:30px; line-height:55px;color:#fff; font-family:微软雅黑; font-size:21px;}
+.book_input{clear:both; overflow:hidden;}
+.book_input .edittb{margin-top:15px; position:relative;}
+.book_input .order_edit{ margin-left:25px; margin-top:30px;}
+.bktxt1{ height:35px; padding-left:14px; line-height:35px; color:#000; font-weight:bold;}
+.bktxt2{ font-weight:normal; color:#999;font-size:12px;}
+.bktxt3{color:#f19800; font-weight:bold; font-size:16px;}
+.bktxt4{color:#0099ff; text-decoration:none;}
+.bktxt5{color:#000; font-weight:bold; font-size:17px;}
+.bktxt6{ font-weight:normal; color:#666;font-size:12px;}
+.bktxt8{ font-family:微软雅黑;font-size:19px; color:#666;}
+.bktxt9{color:#f19800;}
+.bktxt10{color:#01cc00;}
+.oeditinfo{ margin-top:25px; padding-left:13px;}
+.oeditinfo table tr{height:37px; line-height:37px;}
+.oeditinfo input{width:135px; height:20px;}
+/*2、酒店预订-填写订单-修改日期*/
+.box_border{  border:3px solid #9a9a9a; display:none; height:auto; }
+.edittime{ width:540px;z-index:10; position:absolute; top:70px; }
+ .etitle{ height:37px; background:#f7f7f7; border-bottom:1px solid #e3e3e3;}
+ .etitle .efont1{ float:left; color:#7b7b7b; font-size:17px; line-height:37px; padding-left:10px; font-weight:bold; }
+ .etitle .eclose{ float:right; padding-right:9px; margin-top: 10px;}
+.edittime .etime{ height:83px; background-color:#fff;}
+.edittime .etime table{margin-left:10px; padding-top:15px;}
+.timeicon{background:url(../images/book/timeicon.png) 98% 50% no-repeat;border:1px #969696 solid;padding:3px; width:92px;font-size:13px;}
+.theme-popover-mask{z-index:2;position:fixed;left:0;top:0;width:100%;height:100%;background:#e0e0e0;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;display:none;}
+.jy{cursor:pointer;}
+.jy_box{width:540px;z-index:10; position:fixed; margin:auto; left:0; right:0; top:40%;}
+.jy_content{ padding:25px 20px 20px 13px; background:#fff;}
+.jy_content td{line-height:50px;}
+.jy_content input[type=text]{width:200px; height:24px;}
+.jy_content textarea{resize:none; padding:0;margin:0; width:435px;}
+.jy_content .btn{ padding-right:6px; padding-top:10px;}
+/*2、酒店预订-网上支付*/
+.orderpay{}
+.orderpay .paystep{ margin-left:20px; margin-top:15px; margin-bottom:15px;}
+.orderpay .paystep img{ padding-right:25px; vertical-align:middle;}
+.orderpay .bkborder{ border:1px solid #dbecfc; margin-bottom:25px;}
+.orderpay .payrmname{ margin-top:8px; margin-left:48px;}
+.orderpay .payrmname ul{margin:0;padding:0;list-style:none; overflow:hidden;}
+.orderpay .payrmname ul li{float:left; padding-right:45px; line-height:171px; }
+.orderpay .payrmname ul li img{ vertical-align:middle;}
+.orderinfo{ margin-top:5px; border-top:1px solid #daedfe; border-bottom:1px solid #daedfe;}
+.orderinfo .oinfo{ background:#f4f9ff;height:170px;}
+.orderinfo .oinfo .leftinfo{float:left; width:515px;padding-left:45px;}
+.orderinfo .oinfo .rightmoney{float:left;}
+.bktxt7{ line-height:24px;}
+.orderinfo .oinfo .rightmoney .bkbg{ margin-top:10px;background:url(../images/book/bkbg.png) no-repeat; width:247px; height:22px; font-size:12px; padding-left:2px; line-height:22px; margin-bottom:16px;}
+.paymode{clear:both;}
+.paymode .paymd{ cursor:pointer;}
+.paymode .paymd ul{ margin:0;padding:0; list-style:none; font-family:微软雅黑; font-size:17px; color:#666; overflow:hidden;}
+.paymode .paymd ul li{ float:left; width:250px; height:55px; line-height:55px; text-align:center;border-bottom:1px solid #daedfe; }
+.paymode .paymd ul li.check{ background:url(../images/book/modebg.png) no-repeat; border-bottom:none;}
+.selected{ display:block;}
+.paymode .paycon{ margin-left:48px; margin-top:30px; display:none;}
+.paymode .paycon ul{ margin:0; padding:0; list-style:none; overflow:hidden;}
+.paymode .paycon ul li{float:left; padding-right:30px; padding-bottom:20px;}
+.paymode .paycon ul li img{ vertical-align:middle;}
+.paymode .paynext{text-align:center; margin-bottom:35px; display:block;}
+
+/*2、酒店预订-预订成功*/
+.trade{ padding-left:45px; font-size:15px; margin-bottom:35px;}
+.bktxt11{color:#999;}
+.bktxt12{color:#656565;}
+.trade ul{list-style:none;margin:0;padding:0; overflow:hidden;}
+.trade ul li{line-height:30px;}
+.trade p{clear:both;}
+.trade .checkin{ overflow:hidden;}
+.trade .checkin li{float:left; width:385px;}
+/*3、酒店介绍*/
+.hotel_introduce{ margin-top:40px;}
+.hotel_introduce .hotel_text{ padding:25px; line-height:40px;}
+.hotel_introduce .hotel_text .textsp{ text-indent:2em; display:block;}
+/*.hotel_ad{ background:url(../images/index/hotelad.png); height:227px; margin-top:25px; margin-bottom:60px;}*/
+.hotel_ad{ height:227px; margin-top:25px; margin-bottom:60px;}
+.hotel_ad1{background:url(../images/index/htad1.png) no-repeat; height:227px;}
+.hote_ad2{float:right;}
+/*4、房型介绍*/
+.house{clear:both; width:870px; margin-left:65px; margin-top:45px; padding-left:7px; margin-bottom:30px;}
+.housesty1{clear:both; height:303px;}
+.house .houseimg{ float:left;}
+.house .hintroduce{float:left; width:483px;}
+.aliright{ text-align:right;}
+.left8{ margin-left:10px;}
+.house .hintroduce .introtitle{ margin-top:5px; margin-bottom:15px; height:88px;}
+.house .hintroduce .titlepadd{padding-top:30px; height:58px;}
+.house .hintroduce .introdetail{ margin-top:40px;text-align:center;}
+.house .hintroduce .introdetail td{ border-bottom:1px solid #dbecfe; width:83px; line-height:32px;}
+.house .hintroduce .introdetail .detail1{ color:#333;}
+.house .hintroduce .introdetail .detail1 td{border-top:1px solid #dbecfe;}
+.house .hintroduce .introdetail .detail2{color:#989898;}
+/*5、品玩涠洲*/
+.playwz{clear:both; margin-top:50px; padding:0 12px;}
+.wzfood{}
+.wzfood .foodlist{ display:block;  padding-top:25px;}
+.wzfood .foodlist1{padding-top:40px;}
+.wzfood ul{margin:0;padding:0; list-style:none; overflow:hidden;}
+.wzfood ul li{float:left; margin-right:20px;}
+.foodpri{padding-left:10px;}
+/******品玩涠洲-景点推荐*/
+.feature{ margin-top:80px;}
+.feature .feature2{ margin-top:60px;}
+.feature2 .dsdp_bg{ background-image:url(../images/play/fea_dsdp.png); background-repeat:no-repeat; height:275px;}
+.feature2 .dsdp_bg .dsdp{ background-image:url(../images/play/dsdp.png); height:42px; background-repeat:no-repeat; background-position:268px 12px;}
+.feature2 .dsdp_bg .dsdp .dsdp_detail{ margin-left:365px; text-indent:2em; padding-top:20px; color:#666; line-height:29px;}
+.feature2 .wct_bg{ background-image:url(../images/play/fea_wct.png); background-repeat:no-repeat; background-position:right; height:275px;}
+.feature2 .wct_bg .wct{ background-image:url(../images/play/wct.png); height:42px; background-repeat:no-repeat; background-position:565px 12px;}
+.feature2 .wct_bg .wct .wct_detail{width:595px;  text-indent:2em; padding-top:50px; color:#666; line-height:29px;}
+.feature .fea_four{ margin-top:50px;}
+.feature .fea_four ul{margin:0;padding:0;list-style:none; overflow:hidden;}
+.feature .fea_four ul li{float:left; margin-right:28px;}
+.feature .fea_four ul li:last-child{ margin-right:0;}
+.feature .fea_four ul li.noright,ul li.noright{ margin-right:0;}
+/*****品玩涠洲-服务贴士*/
+.tips{ margin-top:60px;}
+.tips .service_tips{overflow:hidden; margin-top:38px;font-family:微软雅黑;font-weight:bold;}
+.tips .service_tips .tips_phone{ width:490px; float:left;}
+.tips .service_tips .tips_phone .manytel{margin-top:15px;overflow:hidden;}
+.manytel ul{ float:left; width:245px; margin:0;padding:0; list-style:none; line-height:22px; }
+.tips_phone .fastship{ clear:both; margin-top:15px;}
+.tips .service_tips .tips_away{float:left;}
+.tips .servihlistce_tips .tips_away .feaaway{ padding-top:40px; padding-left:80px;color:#414141; font-weight:500;}
+.feaaway td:nth-child(2){text-align:right}
+.tipstxt1{color:#e65b85;}
+.tipstxt2{ color:#515151; font-size:13px; }
+.tipstxt3{ padding-left:43px; height:55px;line-height:55px;color:#4397c5;}
+.tipstxt4{color:#65cccb; font-weight:bold;}
+.tipstxt5{color:#414141;}
+.tips .tipsway{clear:both; margin-top:30px; padding-left:35px; overflow:hidden;}
+.tipsway .tipsways{clear:both; overflow:hidden;}
+.tipsway .tipswaystop{ margin-top:20px;}
+.tipsway .tipsways .wayleft{float:left;}
+.tipsway .tipsways .wayright{float:left;padding-left:38px; padding-top:25px;}
+/*6、联系我们*/
+.contactus{ padding-top:25px; padding-bottom:25px;}
+.contactus .contactusad{ height:330px;}
+.contactus ul{margin:0; padding:0;list-style:none; height:330px;}
+.contactus ul li{float:left; height:331px; width:200px;}
+.ht330{height:330px; width:200px; overflow:hidden;}
+li .phone{background:url(../images/contact/ct_phone.png) no-repeat;}
+li .wx{background:url(../images/contact/ct_wx.png) no-repeat;}
+li .add{background:url(../images/contact/ct_add.png) no-repeat;}
+li .weibo{background:url(../images/contact/ct_weibo.png) no-repeat;}
+li .jy{background:url(../images/contact/ct_jy.png) no-repeat;}
+li .ct_ico{ text-align:center; margin:50px auto 60px;}
+li .ct_txt{ text-align:center;}
+.ct_hotel_ad{ height:227px; margin-top:25px; margin-bottom:60px;}
+.ct_hotel_ad .hotel_ad1{background:url(../images/contact/ct_htad1.png) no-repeat; height:227px;}
+.ct_hotel_ad .hote_ad2{float:right;}
+/*酒店搜索列表*/
+.hotel{font-size:13px;float:left;line-height:30px;overflow:hidden; font-family:微软雅黑;}
+.searchlist{ width:1002px;clear:both; margin-top:30px;}
+.searchlist .searchkey{height:50px; width:100%; line-height:50px;border:1px solid #d9e8ff; border-top:2px solid #6f9ed8;}
+.searchlist .searchkey input{height:24px; width:140px; border-radius:3px; border:1px solid #ccc; color:#666;}
+.searchlist .searchkey td{padding-left:3px;}
+.searchlist .searchkey .roompopup{z-index:10;position:relative; background:url(../images/index/rommstyle.png) no-repeat; width:215px; height:264px;top:-5px; left:40px;}
+.searchlist .searchkey .roomhide{display:none;}
+.searchlist .searchkey .roompopup .roomstitle{height:50px; padding-top:15px; text-align:left; padding-left:18px;}
+.searchlist .searchkey .roompopup .roomlist ul{ margin:0; padding:0; list-style:none; text-align:left; padding-left:22px; overflow:hidden;}
+.searchlist .searchkey .roompopup .roomlist ul li{ height:36px; padding:0;margin:0;}
+.searchlist .searchkey .roompopup .roomlist ul li .rlistimg{ padding-left:10px;}
+.searchlist .searchkey .roompopup .roomlist ul li a{ cursor:pointer;}
+.searchlist .hlist{ color:#666; margin-top:15px; margin-bottom:30px; overflow:hidden;}
+.searchlist .hlist table{ width:100%; text-align:center; font-family:微软雅黑;}
+.searchlist .hlist table tr th{border-top:1px solid #d9e8ff; border-bottom:1px solid #d9e8ff; height:33px; background:#f4f9ff; font-weight:normal;}
+.searchlist .hlist table tr td{height:45px;border-bottom:1px solid #d9e8ff; font-size:14px;}
+.searchlist .hlist table tr .money{color:red; font-size:20px; font-weight:bold;}
+.searchlist .hdetail .hline{width: 62px;height: 3px;overflow: hidden; margin-top:3px;display: block;background: #009bcb;}
+.hfont{color:#009bcb;}
+.searchlist .hdetail p{font-size:13px; line-height:20px; color:#666;}
+.right{float:right;}
+.left{float:left;}
+/*bottom*/
+.bottom{ clear:both;width:100%; background:#000; height:88px; text-align:center;}
+.bottom img{ padding-top:20px;}
+/*订单列表页面*/
+.c999 { color: #999!important;}
+.order_list{ width:1002px; height:135px;}
+.order_list table{width:100%; text-align:center; border-bottom:1px solid #eee;}
+.order_list table tr th{background:#f7f7f7; height:40px; font-weight:normal; text-align:left;}
+.order_list table tr td{height:50px; text-align:left; font-size:13px;}
+.order_list .order_name{ font-size:18px; font-family:微软雅黑;}
+.order_list .left10{padding-left:10px; width:340px;}
+.order_list .order_money{color:#C60; font-size:18px;}
+.order_list .order_time{line-height:22px;}
+.errortip{display:none;position:absolute;z-index:1; color:#555; font-size:12px;}
+#phonetip{ top:25px;left:205px;}
+#timetip{ top:25px;left:560px;}
+.com_bug{ border:1px solid #f55; background-color:#fff4f4; line-height:15px;padding:5px 10px;}
+/*订单详情页面*/
+/*船票预订*/
+.ticket{ background:url(../images/ticketbg.jpg); background-position:center top; width:100%; height:374px;}
+.main_warp{width:1002px; margin:0 auto;border:1px solid red;}
+.main_warp .tick_head{ position:relative;color:#fff; height:410px;}
+.main_warp .tick_head .tick_tit{ position:absolute;bottom:70px; left:0; font-size:14px; font-family:微软雅黑;}
+.tick_tit h1{font-size:32px;font-weight:300;display:block;}
+
+/*航班查询*/
+.fly{padding-top:25px; padding-bottom:25px; font-family:方正细倩简体,微软雅黑;}
+.notice{ text-align:center; margin-top:25px;}
+.noticebox{border:1px solid #e8e8e8; margin:30px 50px 90px; padding:0 36px;}
+.noticebox ul{ overflow:hidden; padding:5px 0;}
+.c79{ color:#797979;}
+.noticebox li{ height:37px; line-height:37px; font-weight:600; background:url(../images/fly/ico-notice.png) no-repeat left center; padding:0 40px;}
+.noticebox .notice-title{float:left;}
+.noticebox .notice-detail{float:right;}
+.noticebox li{color:#797979;}
+.noticebox li a:hover{color:#3399fe;}
+.flyquery{ width:905px; margin: 0 auto;}
+.flyquery .queryl{float:left;}
+.queryl .querytext{font-size: 18px; color: #7f7f7f; padding-top: 5px;}
+.flyquery .queryr{float:right; padding-right:7px; }
+.xuxian{clear:both;padding-top: 5px;}
+#nowtime{color:#3399fe;}
+.ship-content{ padding:100px 10px 60px;}
+.ship-content .ship-header{ text-align:center;}
+.ship-content .ship-list{ margin-top:45px; text-align:center; overflow:hidden;}
+.ship-list li{float:left; margin-right:19px;}
+.ship-list li.last{margin-right:0;}
+.ship-list li .ship-tips{ padding-top:13px;}
+/*航班查询-公告弹窗*/
+@font-face{font-family:方正细倩简体,微软雅黑;src:url(fzxqjt.ttf);}
+.notice-box{ display:none;color:#000; width:900px; z-index:10; position:absolute;margin:auto; left:0; right:0; top:20%; background:#fff; border:1px solid #c2c2c2; }
+.notice-box .box-close{ float:right;font-size:25px; color:#e0e0e0; padding-top:3px; padding-right:5px;}
+.notice-content{ padding:0 50px 45px; clear:both;}
+.notice-content .notice-ctitle{text-align:center;}
+.notice-content .notice-ctitle .ntitle{ font-size:25px; font-weight:bold; line-height:60px; border-bottom:1px solid #c2c2c2;}
+.notice-content .notice-ctitle #pubdate{ line-height:40px;}
+.pagenext p{ line-height:35px;}
+.nextpage{ font-family:方正细倩简体; font-weight:bold;}
+.notice-content .notice-comment{ padding:15px 17px 35px; line-height:35px; overflow:hidden;}
+.notice-content .notice-comment p{ text-indent:2em;}
+
+/*招商合作*/
+.insbanner{ background:url(../images/invest/investbn.jpg) no-repeat; width:100%;height:645px; overflow:hidden; background-position:center; position:relative;}
+.insbanner .inswrap{ width:1002px; margin:0 auto;}
+/*.inswrap .inscircle{width:530px; height:530px;border-radius:530px;-moz-border-radius:530px;-webkit-border-radius:530px;
+background:rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important; margin: 50px auto 0;behavior: url(PIE-1.0.0/PIE.htc);}*/
+.inswrap .inscircle{ width:530px; height:530px; margin:50px auto 0; background:url(../images/invest/yy.png) no-repeat;}
+.phonelist{ text-align:center; overflow:hidden;}
+.phonelist li{margin-top:10px;}
+.btmfilter{ height:35px; width:100%;background:#fff;filter:alpha(opacity=70);-moz-opacity:0.7; opacity:0.7; position:absolute; bottom:0;}
+.content .yiny{background:url(../images/invest/yinying.png) no-repeat; height:19px; overflow:hidden;}
+.working{ text-align:center; margin-top:10px;}
+.working .worksp{ font-size:38px; font-family:微软雅黑;}
+.working>ul{margin-top:20px; overflow:hidden;}
+.working li{ margin-right:20px; float:left;}
+li.last{margin-right:0;}
+.working .workbox{ background:url(../images/invest/workbg.png); width:320px; height:335px; color:#5e5e5e; font-size:15px; font-family:微软雅黑;}
+.working li:last-child{margin-right:0px;}
+.working .workbox img{ margin-top:15px;}
+.workbox ul{margin:0;padding:0; text-align:left;}
+li:nth-child(1) ul{padding-top:30px; line-height:38px; font-size:17px;}
+.workbox li{ padding-left:80px;}
+.jdadd{ overflow:hidden;position:relative;margin:0 auto; margin-top:35px; background:url(../images/invest/map.jpg) no-repeat; width:993px; height:444px;}
+.ffbg{background:url(../images/invest/ffbg.png); width:222px; height:42px; margin:0 auto; text-align:center;font-size:25px; font-family:微软雅黑; color:#5e5e5e;}
+.jdadd img{position:absolute;}
+.olmsg{ margin:0 auto; margin-top:55px;margin-top:55px;width:991px; height:354px;background:#06b6ef; font-family:微软雅黑;}
+.olmsg .ewm{float:left; text-align:center; width:500px; margin-top:25px;}
+.olmsg .ewm span{display:block; color:#fff; font-size:18px; padding-top:5px;}
+.olmsg .bgline{ float:left;width:1px; border-left:1px solid #6dd4f7; height:225px; margin-top:48px;}
+.olmsg .msg{ margin-left:65px; float:left; color:#fff; font-size:15px;}
+.msg table{overflow:hidden;}
+.msg .textin{ display:inline-block;text-indent:2em;}
+.msg  input{ width:220px; height:30px; font-size:15px; font-family:微软雅黑; color:#5e5e5e;}
+.msg .btm{ vertical-align:bottom; padding-left:6px;}
+.msg  textarea{width:220px; height:90px; overflow-y:hidden; resize:none; font-size:15px; font-family:微软雅黑; color:#5e5e5e;}
+.domain{ background:url(../images/invest/wzd.png) no-repeat; width:1000px; height:233px; margin:0 auto; margin-top:55px; margin-bottom:60px;}
+/*activity*/
+.activity{width:100%;height:51px; position:absolute;top:180px; z-index:100; background-image:url(../images/index/activity.png);}
+.activiting{ width:1005px; margin:0 auto; height:50px; line-height:50px;}
+.activiting .actitle{ float:left; width:200px; font-family:微软雅黑; color:#000; font-size:16px; font-weight:bold;}
+.activiting .actime{ float:left; width:140px; font-size:14px; color:red; font-family:宋体; font-weight:bold;}
+.activiting .acwinpeople{ margin-left:10px;float:left;  width:370px; height:51px; overflow:hidden;}
+.activiting .acwinpeople ul{ list-style:none; font-size:14px;color:red; font-weight:bold; overflow: hidden;}
+.activiting .acwinpeople ul li{ float:left; padding-right:10px;}
+.activiting .acwinpeople .que1{float:left;}
+.activiting .acwinpeople .que2{float:left;}
+.activiting .actips{ margin-left:15px;float:left;font-size:11px; color:#000; font-family:微软雅黑; font-weight:bold; line-height:11px; margin-top:32px;}

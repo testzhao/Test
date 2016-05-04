@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+/*login*/
+body{margin:0;padding:0; color:#333; font-size:15px;}
+*{margin:0;padding:0;}
+.content .login_container{ padding-left:140px; padding-top:88px; font-family:微软雅黑; overflow:hidden; margin-bottom:225px;}
+.lt{ float:left; }
+.rt{float:right;}
+ul{margin:0;padding:0; list-style:none;}
+input[type=submit],input[type=button],input[type=reset]{cursor:pointer; border:none;} 
+.login{ width:336px;}
+.login input{ border:none;}
+.pdleft40{ padding-left:40px;}
+/*login-顶部*/
+.login_header{ height:24px;}
+.p1{ font-size:21px;#666666;}
+a{ text-decoration:none;}
+p{margin:0;padding:0;}
+.center{ text-align:center;}
+.font15{ font-size:15px;}
+.font16{ font-size:16px;}
+.color999{ color:#999;}
+.color888{ color:#777;}
+.pdtop{ padding-top:30px;}
+.pd15{padding-left:15px;}
+.sps{ display:block; padding-top:6px; color:#8d8d8d; font-size:13px;}
+.sps1{ font-size:14px;}
+.sps a{ color:#92d1f0;}
+.sps a:hover{ text-decoration:underline;}
+.login_form{ margin-top:42px;}
+.login_form .usr input,.login_form .pwd input{height: 22px; width: 270px; border:none; outline: none; border-bottom:1px solid #d9d9d9;padding: 10px 10px 10px 60px;
+ color:#333;font-size:14px;font-family:微软雅黑;vertical-align: middle;line-height: 22px;}
+.login_form .usr .icon_usr{ background:url(../images/myvip/login/icon_usr.png) 1% 50% no-repeat;}
+.login_form .pwd{ margin-top:23px;}
+.login_form .pwd .icon_pwd{ background:url(../images/myvip/login/icon_pwd.png) 1% 50% no-repeat;}
+.login_form .submit{ margin-top:27px;}
+.loginbtn{ background:url(../images/myvip/login/btnlogin.png) no-repeat; width:336px; height:43px;}
+.thirdlogin{ margin-left:125px;}
+.thirdlogin .third ul li input{ width:206px; height:43px; margin-top:29px;}
+.thirdlogin .login_wb{ background:url(../images/myvip/login/login_wb.png) no-repeat;}
+.thirdlogin .login_zfb{ background:url(../images/myvip/login/login_zfb.png) no-repeat;}
+.thirdlogin .login_qq{ background:url(../images/myvip/login/login_qq.png) no-repeat;}
+.thirdlogin input{border:none;}
+
+/*会员注册*/
+.content .reg_container{ padding-left:100px; padding-top:55px;font-family:微软雅黑; overflow:hidden; margin-bottom:250px;}
+.reg{ width:350px;}
+.reg_container .reg_header{ height:24px; padding-left:15px;}
+.reg_form{ margin-top:36px;}
+.reg_form table{ font-size:16px; color:#333; overflow:hidden;}
+.reg_form table .t1{ width:95px;}
+.reg_form table tr{ height:48px;}
+.reg_form table input[type=text],.reg_form table input[type=password]{ font-size:15px; font-family:微软雅黑; border:1px solid #aaa; width:230px; border-radius:3px; height:22px; padding:7px 5px 7px 15px; color:#333;}
+.reg_form select{ font-size:15px;font-family:微软雅黑; border:1px solid #aaa; width:250px; border-radius:3px; height:38px; padding:7px 5px 7px 15px; color:#666;}
+.reg_form select option{ color:#666; height:40px;padding:7px 5px 7px 15px; line-height:40px;}
+.reg_form table input.yzm{ width:78px;}
+.reg_form table .yzmbtn{ width:145px; height:38px; font-family:微软雅黑;line-height:38px; border:1px solid #f9c36b; background:#fbe2ba; color:#fe993f; font-size:15px;}
+.regbtn{ background:url(../images/myvip/reg/btnreg.png) no-repeat; width:336px; height:43px;}
+.reg_form table tr .last{text-align:right; padding-right:2px;}
+.reg_form table tr .last input{ border:0;}
+.reg_form table tr .colorg{color:#fe9d58;}
+.reg_form table tr.detail{ display:none;}
+.reg_form table input.chk{ width:20px; height:20px; vertical-align:middle;}
+.showdetail{ cursor:pointer;}
+/*会员登录-第三方登录*/
+.pdleft{margin-left:230px;}
+.pdtop30{padding-top:30px;}
+input.kzkreg{ width:100px; height:40px; font-family:微软雅黑;line-height:40px; border:1px solid #f9c36b; background:#fbe2ba; color:#fe993f; font-size:15px;}
